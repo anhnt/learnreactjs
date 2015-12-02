@@ -1,4 +1,5 @@
 var React = require('react');
+var marked = require('marked');
 module.exports = React.createClass({
 	displayName: 'Comment',
 	rawMarkup: function() {
